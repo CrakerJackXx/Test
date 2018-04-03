@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></head>
+<style>
+h2, h4, footer {
+  padding: .25em;
+  color: #ffffff;
+  background-color: #ffffff;
+  clear: left;
+  text-align: center;
+}
+div {
+  padding-left: 450px;
+  padding-right:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+</style>
+    <body style="background-color:white;">
+
+          <table style="width:72%">
+            <tr>
+              <th style="width:45%"><img src="https://static.wixstatic.com/media/5aaa63_c659abe1ab71402b922871363d90ccc0.jpg/v1/fill/w_375,h_375,al_c,q_90/5aaa63_c659abe1ab71402b922871363d90ccc0.webp"
+                alt="rinklogo"
+                  width="200" height="200"></th>
+                <th style="font-size:200%;"><p style="text-align:center;">Welcome to</p>
+              <p style="text-align:center;"><font size="7">The Skating Place</font></p></th>
+            </tr>
+          </table>
+          <table class="table" style="text-align:center;">
+            <tr><th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place">HOME</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place%20-%20schedule">SCHEDULE</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place%20%20party%20info">PARTY INFORMATION</th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/Gallery">GALLERY</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/Contact">CONTACT<a/></th>
+            </tr>
+            <table>
+          <div ><font size="10"><strong> RollerBlades Not Allowed</strong></font></div>
+<table>
+  <col width="1000">
+    <col width="1000">
+      <col width="1000">
+    <tr>
+  <th> </th>
+    <th> <font size="5"><u> Family Skating Session</u></th></font>
+    <th> <font size="5"><u>Family Skate</u></th></font>
+  </tr>
+    <td><ul class="w3-bar w3-black" style="list-style:none;">
+      <li><button class="w3-bar-item w3-button" onclick="openCity('Facebook')">Facebook</button></li>
+        <li><button class="w3-bar-item w3-button" onclick="openCity('Number')">Number</button></li>
+      <li><button class="w3-bar-item w3-button" onclick="openCity('Email')">Email</button></li>
+    </ul>
+
+      <li id="Facebook" class="w3-container city" style="list-style-type:none; padding:1em;">
+      <h2><u><center>Facebook</center></u></h2>
+      <h4><a href="http://www.facebook.com/skatingplace1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT976cJM__YDaU--gZ3ra_5gG-mvpG50ofmsrTJeI8_XuVPxAs" alt="The Skating Place Facebook"
+        style="width:55px;height:55px;border:0;"></a></h4></li>
+
+    <li id="Number" class="w3-container city" style="display:none">
+      <h2><u><center>Number</center></u></h2>
+      <h4 style="color:#00ffff;"><i><span style="background-color: #000000"> 731-686-1144 </span></i></h4>
+    </li>
+
+    <li id="Email" class="w3-container city" style="display:none">
+      <h2><u><center>Email</center></u></h2>
+      <h4 style="color:#00ffff"><i><span style="background-color: #000000"> theskatingplace@yahoo.com</span></i></h4>
+    </li>
+    <script>
+  function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+   x[i].style.display = "none";
+  }
+  document.getElementById(cityName).style.display = "block";
+  }
+  </script>
+</td>
+  <td>
+    <strong><p style="color:#ff0000;">Sat. afternoon 2:00-4:30</p>
+      <p style="color:#0000cc;">$4 adm $FREE skate rental</p>
+        <p style="color:#ff0000;">Join us every Fri and Sat night 6:30-10:00</p>
+      <p style="color:#0000cc;">$7 admission $2 skate rental.</p>
+    <p>No Charge for Spectating Parents</p>
+  <p>Checkout our new party packages</p></strong>
+</td>
+  <td><strong><p style="color:#ff0000;">Saturday 2:00 - 4:30 pm</p>
+    <p style="color:#0000cc;">$4 admission  /  free Skate Rental</p>
+      <p>Family Skate Food Specials</p>
+        <p style="color:#0000cc;">$14 Whole Pizza and 4 drinks</p>
+      <p>Made fresh in our stone oven!</p>
+    <p style="color:#ff0000;">Fri. and Sat nights 6:30-10:00</p>
+  <p style="color:#0000cc;">$7 admission / $2 Skate Rental</p>
+</strong></td>
+  </tr>
+</table>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

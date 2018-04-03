@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></head>
+<style>
+h1, h4, footer {
+  padding: .25em;
+  color: #ffffff;
+  background-color: #ffffff;
+  clear: left;
+  text-align: center;
+}
+</style>
+    <body style="background-color:white;">
+
+          <table style="width:72%">
+            <tr>
+              <th style="width:45%"><img src="https://static.wixstatic.com/media/5aaa63_c659abe1ab71402b922871363d90ccc0.jpg/v1/fill/w_375,h_375,al_c,q_90/5aaa63_c659abe1ab71402b922871363d90ccc0.webp"
+                alt="rinklogo"
+                  width="200" height="200"></th>
+                <th style="font-size:200%;"><p style="text-align:center;">Welcome to</p>
+              <p style="text-align:center;"><font size="7">The Skating Place</font></p></th>
+            </tr>
+          </table>
+          <table class="table" style="text-align:center;">
+            <tr><th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place">HOME</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place%20-%20schedule">SCHEDULE</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place%20%20party%20info">PARTY INFORMATION</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/Gallery">GALLERY</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/Contact">CONTACT</a></th>
+            </tr>
+          </table>
+              <table>
+                <tr>
+                  <col width="1000">
+                    <col width="1000">
+                      <col width="1000">
+                    <tr>
+                  <td><ul class="w3-bar w3-black" style="list-style:none;">
+                    <li><button class="w3-bar-item w3-button" onclick="openCity('Facebook')">Facebook</button></li>
+                      <li><button class="w3-bar-item w3-button" onclick="openCity('Number')">Number</button></li>
+                    <li><button class="w3-bar-item w3-button" onclick="openCity('Email')">Email</button></li>
+                  </ul>
+
+                    <li id="Facebook" class="w3-container city" style="list-style-type:none; padding:1em;">
+                    <h2><u><center>Facebook</center></u></h2>
+                    <h4><a href="http://www.facebook.com/skatingplace1">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT976cJM__YDaU--gZ3ra_5gG-mvpG50ofmsrTJeI8_XuVPxAs" alt="The Skating Place Facebook"
+                      style="width:55px;height:55px;border:0;"></a></h4></li>
+
+                  <li id="Number" class="w3-container city" style="display:none">
+                    <h2><u><center>Number</center></u></h2>
+                    <h4 style="color:#00ffff;"><i><span style="background-color: #000000"> 731-686-1144 </span></i></h4>
+                  </li>
+
+                  <li id="Email" class="w3-container city" style="display:none">
+                    <h2><u><center>Email</center></u></h2>
+                    <h4 style="color:#00ffff"><i><span style="background-color: #000000"> theskatingplace@yahoo.com</span></i></h4>
+                  </li>
+                  <script>
+                function openCity(cityName) {
+                var i;
+                var x = document.getElementsByClassName("city");
+                for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";
+                }
+                document.getElementById(cityName).style.display = "block";
+                }
+                </script>
+              </td>
+                    <th> <font size="5"><u>Rink Hours</u></font><p style="color:#ff9900">We are available for private parties on any of our closed days and before or after public hours.  Message us on facebook or email us for more info:  theskatingplace@yahoo.com</p>
+                    <p><span style="color:#FF0000">Sunday - Thursday</span>    Closed For Private Parties</p>
+                  <p><span style="color:#FF0000">Friday Night</span>    6:30-10:00   $7 adm/$2 Sk8 Rental</p>
+                <p><span style="color:#FF0000">Sat. Afternooon</span>    2:00-4:30     $4 adm/free Sk8 Rental</p>
+              <p><span style="color:#FF0000">Sat. Night</span>   6:30-10:00   $7 adm/$2 Sk8 Rental</p>
+            </th>
+            <th><img src="https://static.wixstatic.com/media/5aaa63_f2b52d2ef3a245a99d1223c017676991.jpg/v1/fill/w_326,h_489,al_c,q_90,usm_0.66_1.00_0.01/5aaa63_f2b52d2ef3a245a99d1223c017676991.webp"></th>
+
+
+
+
+              </tr>

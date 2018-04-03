@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></head>
+<style>
+h1, h4, footer {
+  padding: .25em;
+  color: #ffffff;
+  background-color: #ffffff;
+  clear: left;
+  text-align: center;
+}
+</style>
+    <body style="background-color:white;">
+
+          <table style="width:72%">
+            <tr>
+              <th style="width:45%"><img src="https://static.wixstatic.com/media/5aaa63_c659abe1ab71402b922871363d90ccc0.jpg/v1/fill/w_375,h_375,al_c,q_90/5aaa63_c659abe1ab71402b922871363d90ccc0.webp"
+                alt="rinklogo"
+                  width="200" height="200"></th>
+                <th style="font-size:200%;"><p style="text-align:center;">Welcome to</p>
+              <p style="text-align:center;"><font size="7">The Skating Place</font></p></th>
+            </tr>
+          </table>
+          <table class="table" style="text-align:center;">
+            <tr><th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place">HOME</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place%20-%20schedule">SCHEDULE</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place%20%20party%20info">PARTY INFORMATION</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/Gallery">GALLERY</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/Contact">CONTACT</a></th>
+            </tr>
+          </table>
+              <table>
+                <tr>
+                  <col width="1000">
+                    <col width="1000">
+                      <col width="1000">
+                    <tr>
+                  <td><ul class="w3-bar w3-black" style="list-style:none;">
+                    <li><button class="w3-bar-item w3-button" onclick="openCity('Facebook')">Facebook</button></li>
+                      <li><button class="w3-bar-item w3-button" onclick="openCity('Number')">Number</button></li>
+                    <li><button class="w3-bar-item w3-button" onclick="openCity('Email')">Email</button></li>
+                  </ul>
+
+                    <li id="Facebook" class="w3-container city" style="list-style-type:none; padding:1em;">
+                    <h2><u><center>Facebook</center></u></h2>
+                    <h4><a href="http://www.facebook.com/skatingplace1">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT976cJM__YDaU--gZ3ra_5gG-mvpG50ofmsrTJeI8_XuVPxAs" alt="The Skating Place Facebook"
+                      style="width:55px;height:55px;border:0;"></a></h4></li>
+
+                  <li id="Number" class="w3-container city" style="display:none">
+                    <h2><u><center>Number</center></u></h2>
+                    <h4 style="color:#00ffff;"><i><span style="background-color: #000000"> 731-686-1144 </span></i></h4>
+                  </li>
+
+                  <li id="Email" class="w3-container city" style="display:none">
+                    <h2><u><center>Email</center></u></h2>
+                    <h4 style="color:#00ffff"><i><span style="background-color: #000000"> theskatingplace@yahoo.com</span></i></h4>
+                  </li>
+                  <script>
+                function openCity(cityName) {
+                var i;
+                var x = document.getElementsByClassName("city");
+                for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";
+                }
+                document.getElementById(cityName).style.display = "block";
+                }
+                </script>
+              </td>
+              <th><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: .25s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 7</div>
+  <img src="https://static.wixstatic.com/media/5aaa63_c659abe1ab71402b922871363d90ccc0.jpg/v1/fill/w_375,h_375,al_c,q_90/5aaa63_c659abe1ab71402b922871363d90ccc0.webp" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 7</div>
+  <img src="https://static.wixstatic.com/media/5aaa63_03ccec96e8b242e69fdde738f4780d0a~mv2.jpg/v1/fill/w_652,h_489,al_c,q_90,usm_0.66_1.00_0.01/5aaa63_03ccec96e8b242e69fdde738f4780d0a~mv2.webp" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 7</div>
+  <img src="https://static.wixstatic.com/media/5aaa63_63a9c38b0b7b41e88dfb5fb0df9c5565.jpg/v1/fill/w_652,h_489,al_c,q_90,usm_0.66_1.00_0.01/5aaa63_63a9c38b0b7b41e88dfb5fb0df9c5565.webp" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 7</div>
+  <img src="https://static.wixstatic.com/media/5aaa63_4c7c8ef2149548798123e6e59af74ac8~mv2.jpg/v1/fill/w_720,h_480,al_c,q_90/5aaa63_4c7c8ef2149548798123e6e59af74ac8~mv2.webp" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 7</div>
+  <img src="https://static.wixstatic.com/media/5aaa63_51efb40409a949f5acd9587251e07d9f~mv2.jpg/v1/fill/w_652,h_489,al_c,q_90,usm_0.66_1.00_0.01/5aaa63_51efb40409a949f5acd9587251e07d9f~mv2.webp" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 7</div>
+  <img src="https://static.wixstatic.com/media/5aaa63_6e2a553ee02942c6b67171f47581fe3d.jpg/v1/fill/w_367,h_489,al_c,q_90,usm_0.66_1.00_0.01/5aaa63_6e2a553ee02942c6b67171f47581fe3d.webp" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 7</div>
+  <img src="https://static.wixstatic.com/media/5aaa63_f2b52d2ef3a245a99d1223c017676991.jpg/v1/fill/w_326,h_489,al_c,q_90,usm_0.66_1.00_0.01/5aaa63_f2b52d2ef3a245a99d1223c017676991.webp" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 7</div>
+  <img src="https://static.wixstatic.com/media/5aaa63_5aeb7b037f8b49408d4a52de9387bbd6.jpg/v1/fill/w_734,h_489,al_c,q_90,usm_0.66_1.00_0.01/5aaa63_5aeb7b037f8b49408d4a52de9387bbd6.webp" style="width:100%">
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000);
+}
+</script></th>
+            <th>

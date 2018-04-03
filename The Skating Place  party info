@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></head>
+<style>
+h1, h4, footer {
+  padding: .25em;
+  color: #ffffff;
+  background-color: #ffffff;
+  clear: left;
+  text-align: center;
+}
+</style>
+    <body style="background-color:white;">
+
+          <table style="width:72%">
+            <tr>
+              <th style="width:45%"><img src="https://static.wixstatic.com/media/5aaa63_c659abe1ab71402b922871363d90ccc0.jpg/v1/fill/w_375,h_375,al_c,q_90/5aaa63_c659abe1ab71402b922871363d90ccc0.webp"
+                alt="rinklogo"
+                  width="200" height="200"></th>
+                <th style="font-size:200%;"><p style="text-align:center;">Welcome to</p>
+              <p style="text-align:center;"><font size="7">The Skating Place</font></p></th>
+            </tr>
+          </table>
+          <table class="table" style="text-align:center;">
+            <tr><th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place">HOME</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place%20-%20schedule">SCHEDULE</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/The%20Skating%20Place%20%20party%20info">PARTY INFORMATION</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/Gallery">GALLERY</a></th>
+              <th><a href="file:///C:/Users/eboyd/OneDrive/Contact">CONTACT</a></th>
+            </tr>
+          </table>
+              <table>
+                <tr>
+                  <col width="250">
+                    <col width="1000">
+                      <col width="1000">
+                    <tr>
+                  <td><ul class="w3-bar w3-black" style="list-style:none;">
+                    <li><button class="w3-bar-item w3-button" onclick="openCity('Facebook')">Facebook</button></li>
+                      <li><button class="w3-bar-item w3-button" onclick="openCity('Number')">Number</button></li>
+                    <li><button class="w3-bar-item w3-button" onclick="openCity('Email')">Email</button></li>
+                  </ul>
+
+                    <li id="Facebook" class="w3-container city" style="list-style-type:none; padding:1em;">
+                    <h2><u><center>Facebook</center></u></h2>
+                    <h4><a href="http://www.facebook.com/skatingplace1">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT976cJM__YDaU--gZ3ra_5gG-mvpG50ofmsrTJeI8_XuVPxAs" alt="The Skating Place Facebook"
+                      style="width:55px;height:55px;border:0;"></a></h4></li>
+
+                  <li id="Number" class="w3-container city" style="display:none">
+                    <h2><u><center>Number</center></u></h2>
+                    <h4 style="color:#00ffff;"><i><span style="background-color: #000000"> 731-686-1144 </span></i></h4>
+                  </li>
+
+                  <li id="Email" class="w3-container city" style="display:none">
+                    <h2><u><center>Email</center></u></h2>
+                    <h4 style="color:#00ffff"><i><span style="background-color: #000000"> theskatingplace@yahoo.com</span></i></h4>
+                  </li>
+                  <script>
+                function openCity(cityName) {
+                var i;
+                var x = document.getElementsByClassName("city");
+                for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";
+                }
+                document.getElementById(cityName).style.display = "block";
+                }
+                </script>
+              </td>
+                    <th> <font size="5"><u>TO BOOK A PARTY</u></font><p style="color:#ff9900">We require a non refundable deposit  and signed contract to save a date for your party.  Dates are saved first come first served with the deposit.  We can take your non refundable deposit over the phone via credit card and save your date, you will need to sign the party contract upon your arrival.  Your deposit counts towards your package price.  Message us on facebook to check dates.   Thank you for your interest in our rink, we will try our very best to make it a WHEEL good time for your family.  Your deposit counts towards your party package price, it is not in addition to the package price. </p>
+            </th>
+            <table>
+              <tr>
+                <col width="250">
+                  <col width="50">
+                    <col width="650">
+              <td>
+                <th><div data-exact-height="170" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="https://static.wixstatic.com/media/5aaa63_63a9c38b0b7b41e88dfb5fb0df9c5565.jpg/v1/fill/w_652,h_489,al_c,q_90,usm_0.66_1.00_0.01/5aaa63_63a9c38b0b7b41e88dfb5fb0df9c5565.webp" class="wp2" id="WPht3" style="left: 0px; position: absolute; top: 259px; width: 251px; height: 170px;"><div id="WPht3link" class="wp2link" style="width: 251px; height: 170px;"><div data-style="" class="wp2img" id="WPht3img" style="position: relative; width: 251px; height: 170px;"><img id="WPht3imgimage" alt="" data-type="image" src="https://static.wixstatic.com/media/5aaa63_2a67a05d64684a3da4b77815c7152972.jpg/v1/fill/w_251,h_170,al_c,q_80,usm_0.66_1.00_0.01/5aaa63_2a67a05d64684a3da4b77815c7152972.webp" style="width: 251px; height: 170px; object-fit: cover;"></div></div></div></th>
+              <th><font size="6"><u style="color:#0000cc;">Public Party Package:  $100 tax included</u></font>
+              <strong><p style="color:#ff0000;">Available Saturday Afternoon 2:00-4:30</p>
+
+
+
+<p>This party package is during a public skate session and is NOT PRIVATE.  No decorations are allowed with this package.  You will have a designated party table for a 30 minuet period.  This area is shared with the public and is for party sizes of 15 guests.  Guest = 3Y/O to 18 Y/O regardless if they skate or not, and any adult that skates.</p>
+
+
+
+<p style="color:#0000cc;">The price is $100 tax included and must be paid in full when booking.</p>
+
+
+
+<p style="color:#0000cc;">Includes:  Admission for 15 guests, skate rental, and 2.5 hours of skating.  Each additional guest over 15 is $7.50 each.</p>
+
+
+
+<p style="color:#0000cc;">Each guest will receive a free pass for a return visit, and the guest of honor will receive a VIP pass for 1 month of FREE admission.</p>
+
+
+
+<p>Place mats, plates, spoons, napkins, and a party size drink per guest.</p>
+
+
+
+<p>Recognition of guest of honor during birthday song.</p>
+
+
+
+<p>The Skating Place invitations are free and to be picked up at the rink</p>
+
+
+
+<p style="color:#0000cc;">An additional guest of honor may be added for $25 and will include 2nd guest of honor recognition during birthday song, 5 more guest, and a 2nd VIP pass for 1 month of FREE admission.</p>
+
+
+
+<p>If you fail to show or cancel your party you automatically forfeit your deposit and any additional monies you have paid.  You will have to start with a new deposit that equals the total party package to reserve another date.</p>
+
+
+
+<p>If you reschedule your party less than 14 days from your party date you forfeit your deposit and any additional monies you have paid.  You will have to start with a new deposit that equals the total party package to reserve another date.</p>
+
+
+
+<p>Cakes, Cup Cakes, and Ice Cream only to be brought in.  NO OTHER FOOD OR DRINKS ALLOWED.</p>
+
+
+
+<p style="color:#0000cc;">Pitchers of drinks are $6.00 and fill 10 party size cups.</p>
+
+
+
+<p style="color:#0000cc;">Pizzas are  $14 each;  They are 16” cut into 16 slices.</p>
+
+
+
+<p>Party contracts are nontransferable.</p></strong></th>
+
+            </td>
+            <table>
+              <tr>
+                <col width="300">
+                  <col width="1000">
+                    <col width="650">
+              <td>
+            <th> <strong> <p><u><font size="6">Private Parties:    3 options to pick from</font></u>
+
+
+
+<p style="color:#0000cc;">Basic Private Party:  $150 tax included
+
+<p style="color:#0000cc;">Time and date arranged in advance.  Requires a $100 nonrefundable deposit to save a date.
+
+<p>Party Packages can not be upgraded on the day of party.
+
+
+
+<p>Allows 35 guest including skate rental.
+
+
+
+<p style="color:#0000cc;">Guest = 3Y/O - 18Y/O regardless if they skate or not, and any adult that skates. additional guest is $5 each.
+
+
+
+<p>Cake, Cup Cakes, and Ice Cream only will be allowed to be brought in.  NO OTHER FOOD OR DRINKS ALLOWED!
+
+
+
+<p>Concessions will be available for purchse.
+
+
+
+<p style="color:#0000cc;">Pizzas may be added at $14 each; they are 16” and cut into 16 slices.
+
+
+
+<p style="color:#0000cc;">Pitchers of drink are $6 each and fill 10 party size cups.
+
+
+
+<p>Each guest will receive a free pass for a return visit.  Guest of honor will receive a VIP Pass for 1 month FREE ADMISSION, and recognition during birthday song.
+
+
+
+<p style="color:#0000cc;">$25 fee for additional guest of honor and you will receive a 2nd VIP pass, 2nd guest of honor recognition during birthday song, and 10 more guests.
+
+
+
+<p>The Skating Place invitations are free and to be picked up at the rink
+
+
+
+
+
+<p>If you fail to show or cancel your party you automatically forfeit your deposit and any additional monies you have paid.  You will have to start with a new deposit that equals the total party package to reserve another date.
+
+
+
+<p>If you reschedule your party less than 14 days from your party date you forfeit your deposit and any additional monies you have paid.  You will have to start with a new deposit that equals the total party package to reserve another date.
+
+
+
+<p>Party contracts are nontransferable.
+
+
+
+<p style="color:#0000cc;">The Home Run Private Party $200 tax included  $260 value if purchased seperately
+
+<p>Includes everything in the Basic Private Party Plus!
+
+
+
+<p style="color:#0000cc;">50 total guests and skate rental, additional guest is $5 each
+
+
+<p>5 pitchers of drinks
+
+
+
+<p>Plates, Spoons, and Napkins
+
+
+
+<p style="color:#0000cc;">$100 Nonrefundable deposit to save a date.
+
+
+<p>Party Packages can not be upgraded on the day of party.
+
+
+
+<p style="color:#0000cc;">The Grand Slam Private Party $250 tax included  $500 value if purchased seperately
+
+<p>Includes everything in the Basic Private Party Plus!
+
+
+
+<p>75 total guests and skate rental, regular or speed skates, additional guest is $5 each.
+
+
+
+<p>All Skate Trainers
+
+
+
+<p>3 Pizza's - 8 Pitchers of Drinks - Plates, Spoons, and Napkins.
+
+
+
+<p>VIP pass for this package is good for 2 months FREE admission.
+
+
+
+<p style="color:#0000cc;">$100 Nonrefundable deposit to save a date.
+
+
+
+<p>Party Packages can not be upgraded on the day of party.  </p></th></strong>
+
+
+
+
+
+
+            </td>
